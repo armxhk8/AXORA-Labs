@@ -1,0 +1,66 @@
+/* Remove blue underline from Axora Labs logo */
+.no-link-style {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.no-link-style span {
+  color: #5cc9ff; /* Keep the blue brand color */
+  font-weight: bold;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #0f1923, #0d1117);
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: #5cc9ff;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Highlight (Viba Showcase) */
+.highlight {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #11151d;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.about-viba-logo {
+  max-width: 280px;
+  margin-bottom: 1.5rem;
+}
+
+/* CTA Button */
+.btn-primary {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background: #5cc9ff;
+  color: #0d1117;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #4bb3e6;
+}
